@@ -1,0 +1,137 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.tea-cozy {
+  padding-left: 10px;
+  height: 50px;
+}
+
+.header-nav {
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+.mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-position: center;
+  margin: auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.statement {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  height: 69px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+
+.tea {
+  height: 200px;
+  width: 300px;
+}
+
+.downtown {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  margin-right: 40px;
+  text-align: center;
+  opacity: 1;
+}
+
+.oakdale {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+}
+
+.bayside {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  margin-right: 40px;
+  opacity: 1;
+  text-align: center;
+}
+
+#location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.month {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.berry {
+  margin-right: 50px;
+}
+
+.rum {
+  margin-right: 50px;
+}
+
+.donuts {
+  margin-right: 50px;
+}
+
+.myrtle {
+  margin-right: 50px;
+}
+
+.bizzare {
+  margin-right: 50px;
+}
+
+.tea {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.copy {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.location-containers {
+  display: flex;
+  flex-direction: row;
+}
